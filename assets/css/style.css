@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: aliceblue;
+  background-color: #071533;
+  margin: 0;
+  padding: 0;
+}
+
+/*---------- Hero ----------*/
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 919px;
+  width: 100%;
+  /* height: 1080px;
+  width: 1920px; */
+  background-image: url("/public/img/bateria-sobre-fondo-oscuro-iluminacion-escenica-copie-espacio.jpg");
+  /* background-image: url("/public/img/bateria.jpg"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* border: 3px solid #cc1616; */
+}
+
+.hero {
+  padding: 15px;
+  height: 300px;
+  width: 1000px;
+  font-size: xx-large;
+  background-color: #0000008f;
+  box-shadow: 0 0 5px #b9c5c9, 0 0 25px #aebcc0;
+  /* border: 3px solid #cc1616; */
+}
+
+.hero h2,
+.hero h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  /* border: 3px solid #cc1616; */
+}
+
+.hero h2 {
+  background: linear-gradient(to bottom, #d68b29, #c5a53b);
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.hero h3 {
+  font-size: 25pt;
+}
+
+.hero p {
+  text-align: center;
+  font-size: 19pt;
+}
+
+.hero strong {
+  background: linear-gradient(to bottom, #d68b29, #c5a53b);
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+/*---------- Hero-End ----------*/
+
+/*---------- About ----------*/
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 3px solid #cc1616; */
+}
+
+.about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-size: xx-large;
+  background-color: #0000008f;
+  /* border: 4px solid #b3ff03; */
+}
+
+.about h3 {
+  text-align: center;
+  /* font-weight: bold; */
+  margin: 10px;
+  width: 200px;
+  background: linear-gradient(to bottom, #e0dedb, #e9dbad);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /* border: 4px solid #b3ff03; */
+}
+
+.about h3 strong {
+  background: linear-gradient(to bottom, #d68b29, #c5a53b);
+  font-weight: bold;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.about p {
+  color: #fff;
+  width: 40%;
+  font-size: 17px;
+  text-align: center;
+  /* border: 4px solid #b3ff03; */
+}
+
+.about-items {
+  display: flex;
+  justify-content: justify;
+  flex-direction: column;
+  font-size: 17px;
+  color: #fff;
+  margin: 10px;
+  /* border: 4px solid #b3ff03; */
+}
